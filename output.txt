@@ -1,0 +1,494 @@
+=============== Support Vector Machine ===============
+
+Number of features selected for training:  24
+
+##### 14(a) Train and find best C #####
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+ 'precision', 'predicted', average, warn_for)
+
+
+-----
+C = 10^-4
+-----
+              precision    recall  f1-score   support
+
+         -1       0.75      1.00      0.86     18790
+          1       0.00      0.00      0.00      6210
+
+  micro avg       0.75      0.75      0.75     25000
+  macro avg       0.38      0.50      0.43     25000
+weighted avg       0.56      0.75      0.65     25000
+
+Train Accuracy:  0.75
+Number of support vectors: [6214 6210]
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+ 'precision', 'predicted', average, warn_for)
+
+              precision    recall  f1-score   support
+
+         -1       0.76      1.00      0.86      1147
+          1       0.00      0.00      0.00       361
+
+  micro avg       0.76      0.76      0.76      1508
+  macro avg       0.38      0.50      0.43      1508
+weighted avg       0.58      0.76      0.66      1508
+
+Dev Accuracy:  0.761
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+ 'precision', 'predicted', average, warn_for)
+
+              precision    recall  f1-score   support
+
+         -1       0.74      1.00      0.85      1586
+          1       0.00      0.00      0.00       559
+
+  micro avg       0.74      0.74      0.74      2145
+  macro avg       0.37      0.50      0.43      2145
+weighted avg       0.55      0.74      0.63      2145
+
+Test Accuracy:  0.74
+Number of support vectors: [6214 6210]
+--- 12.603009939193726 seconds ---
+
+
+-----
+C = 10^-3
+-----
+              precision    recall  f1-score   support
+
+         -1       0.84      0.94      0.89     18790
+          1       0.72      0.46      0.56      6210
+
+  micro avg       0.82      0.82      0.82     25000
+  macro avg       0.78      0.70      0.73     25000
+weighted avg       0.81      0.82      0.81     25000
+
+Train Accuracy:  0.82
+Number of support vectors: [5748 5743]
+
+              precision    recall  f1-score   support
+
+         -1       0.85      0.94      0.89      1147
+          1       0.72      0.47      0.57       361
+
+  micro avg       0.83      0.83      0.83      1508
+  macro avg       0.79      0.71      0.73      1508
+weighted avg       0.82      0.83      0.82      1508
+
+Dev Accuracy:  0.83
+
+              precision    recall  f1-score   support
+
+         -1       0.83      0.94      0.88      1586
+          1       0.72      0.47      0.57       559
+
+  micro avg       0.82      0.82      0.82      2145
+  macro avg       0.78      0.70      0.73      2145
+weighted avg       0.81      0.82      0.80      2145
+
+Test Accuracy:  0.82
+Number of support vectors: [5748 5743]
+--- 12.313136100769043 seconds ---
+
+
+-----
+C = 10^-2
+-----
+              precision    recall  f1-score   support
+
+         -1       0.85      0.90      0.88     18790
+          1       0.64      0.52      0.58      6210
+
+  micro avg       0.81      0.81      0.81     25000
+  macro avg       0.75      0.71      0.73     25000
+weighted avg       0.80      0.81      0.80     25000
+
+Train Accuracy:  0.81
+Number of support vectors: [5282 5247]
+
+              precision    recall  f1-score   support
+
+         -1       0.86      0.91      0.89      1147
+          1       0.65      0.53      0.59       361
+
+  micro avg       0.82      0.82      0.82      1508
+  macro avg       0.76      0.72      0.74      1508
+weighted avg       0.81      0.82      0.81      1508
+
+Dev Accuracy:  0.82
+
+              precision    recall  f1-score   support
+
+         -1       0.85      0.90      0.87      1586
+          1       0.66      0.53      0.59       559
+
+  micro avg       0.81      0.81      0.81      2145
+  macro avg       0.75      0.72      0.73      2145
+weighted avg       0.80      0.81      0.80      2145
+
+Test Accuracy:  0.81
+Number of support vectors: [5282 5247]
+--- 11.94743013381958 seconds ---
+
+
+-----
+C = 10^-1
+-----
+              precision    recall  f1-score   support
+
+         -1       0.85      0.90      0.88     18790
+          1       0.64      0.52      0.58      6210
+
+  micro avg       0.81      0.81      0.81     25000
+  macro avg       0.75      0.71      0.73     25000
+weighted avg       0.80      0.81      0.80     25000
+
+Train Accuracy:  0.81
+Number of support vectors: [5130 5088]
+
+              precision    recall  f1-score   support
+
+         -1       0.86      0.91      0.89      1147
+          1       0.65      0.53      0.59       361
+
+  micro avg       0.82      0.82      0.82      1508
+  macro avg       0.76      0.72      0.74      1508
+weighted avg       0.81      0.82      0.81      1508
+
+Dev Accuracy:  0.82
+
+              precision    recall  f1-score   support
+
+         -1       0.85      0.90      0.87      1586
+          1       0.66      0.53      0.59       559
+
+  micro avg       0.81      0.81      0.81      2145
+  macro avg       0.75      0.72      0.73      2145
+weighted avg       0.80      0.81      0.80      2145
+
+Test Accuracy:  0.81
+Number of support vectors: [5130 5088]
+--- 11.771199941635132 seconds ---
+
+
+-----
+C = 10^0
+-----
+              precision    recall  f1-score   support
+
+         -1       0.86      0.89      0.88     18790
+          1       0.63      0.57      0.60      6210
+
+  micro avg       0.81      0.81      0.81     25000
+  macro avg       0.75      0.73      0.74     25000
+weighted avg       0.80      0.81      0.81     25000
+
+Train Accuracy:  0.81
+Number of support vectors: [5299 5153]
+
+              precision    recall  f1-score   support
+
+         -1       0.86      0.89      0.88      1147
+          1       0.61      0.55      0.58       361
+
+  micro avg       0.81      0.81      0.81      1508
+  macro avg       0.74      0.72      0.73      1508
+weighted avg       0.80      0.81      0.81      1508
+
+Dev Accuracy:  0.81
+
+              precision    recall  f1-score   support
+
+         -1       0.85      0.90      0.87      1586
+          1       0.65      0.56      0.60       559
+
+  micro avg       0.81      0.81      0.81      2145
+  macro avg       0.75      0.73      0.74      2145
+weighted avg       0.80      0.81      0.80      2145
+
+Test Accuracy:  0.81
+Number of support vectors: [5299 5153]
+--- 15.402075052261353 seconds ---
+
+
+-----
+C = 10^1
+-----
+              precision    recall  f1-score   support
+
+         -1       0.86      0.89      0.88     18790
+          1       0.63      0.57      0.60      6210
+
+  micro avg       0.81      0.81      0.81     25000
+  macro avg       0.75      0.73      0.74     25000
+weighted avg       0.80      0.81      0.81     25000
+
+Train Accuracy:  0.81
+Number of support vectors: [5517 5302]
+
+              precision    recall  f1-score   support
+
+         -1       0.86      0.89      0.88      1147
+          1       0.61      0.55      0.58       361
+
+  micro avg       0.81      0.81      0.81      1508
+  macro avg       0.74      0.72      0.73      1508
+weighted avg       0.80      0.81      0.81      1508
+
+Dev Accuracy:  0.81
+
+              precision    recall  f1-score   support
+
+         -1       0.85      0.90      0.87      1586
+          1       0.65      0.56      0.60       559
+
+  micro avg       0.81      0.81      0.81      2145
+  macro avg       0.75      0.73      0.74      2145
+weighted avg       0.80      0.81      0.80      2145
+
+Test Accuracy:  0.81
+Number of support vectors: [5517 5302]
+--- 32.68995785713196 seconds ---
+
+
+-----
+C = 10^2
+-----
+              precision    recall  f1-score   support
+
+         -1       0.86      0.89      0.88     18790
+          1       0.63      0.57      0.60      6210
+
+  micro avg       0.81      0.81      0.81     25000
+  macro avg       0.75      0.73      0.74     25000
+weighted avg       0.80      0.81      0.81     25000
+
+Train Accuracy:  0.81
+Number of support vectors: [5685 5393]
+
+              precision    recall  f1-score   support
+
+         -1       0.86      0.89      0.88      1147
+          1       0.61      0.55      0.58       361
+
+  micro avg       0.81      0.81      0.81      1508
+  macro avg       0.74      0.72      0.73      1508
+weighted avg       0.80      0.81      0.81      1508
+
+Dev Accuracy:  0.81
+
+              precision    recall  f1-score   support
+
+         -1       0.85      0.90      0.87      1586
+          1       0.65      0.56      0.60       559
+
+  micro avg       0.81      0.81      0.81      2145
+  macro avg       0.75      0.73      0.74      2145
+weighted avg       0.80      0.81      0.80      2145
+
+Test Accuracy:  0.81
+Number of support vectors: [5685 5393]
+--- 143.59849619865417 seconds ---
+
+
+
+-----
+C = 10^3
+-----
+              precision    recall  f1-score   support
+
+         -1       0.86      0.89      0.88     18790
+          1       0.63      0.57      0.60      6210
+
+  micro avg       0.81      0.81      0.81     25000
+  macro avg       0.75      0.73      0.74     25000
+weighted avg       0.80      0.81      0.81     25000
+
+Train Accuracy:  0.81
+Number of support vectors: [5780 5464]
+
+              precision    recall  f1-score   support
+
+         -1       0.86      0.89      0.88      1147
+          1       0.61      0.55      0.58       361
+
+  micro avg       0.81      0.81      0.81      1508
+  macro avg       0.74      0.72      0.73      1508
+weighted avg       0.80      0.81      0.81      1508
+
+Dev Accuracy:  0.81
+
+              precision    recall  f1-score   support
+
+         -1       0.85      0.90      0.87      1586
+          1       0.65      0.56      0.60       559
+
+  micro avg       0.81      0.81      0.81      2145
+  macro avg       0.75      0.73      0.74      2145
+weighted avg       0.80      0.81      0.80      2145
+
+Test Accuracy:  0.81
+Number of support vectors: [5780 5464]
+--- 1119.7936928272247 seconds ---
+
+
+-----
+C = 10^4
+-----
+              precision    recall  f1-score   support
+
+         -1       0.86      0.89      0.88     18790
+          1       0.63      0.57      0.60      6210
+
+  micro avg       0.81      0.81      0.81     25000
+  macro avg       0.75      0.73      0.74     25000
+weighted avg       0.80      0.81      0.81     25000
+
+Train Accuracy:  0.81
+Number of support vectors: [5889 5487]
+
+              precision    recall  f1-score   support
+
+         -1       0.86      0.89      0.88      1147
+          1       0.61      0.55      0.58       361
+
+  micro avg       0.81      0.81      0.81      1508
+  macro avg       0.74      0.72      0.73      1508
+weighted avg       0.80      0.81      0.81      1508
+
+Dev Accuracy:  0.81
+
+              precision    recall  f1-score   support
+
+         -1       0.85      0.90      0.87      1586
+          1       0.65      0.56      0.60       559
+
+  micro avg       0.81      0.81      0.81      2145
+  macro avg       0.75      0.73      0.74      2145
+weighted avg       0.80      0.81      0.80      2145
+
+Test Accuracy:  0.81
+Number of support vectors: [5889 5487]
+--- 10100.439065933228 seconds ---
+##### 14(b) Train on train+dev data #####
+Test Accuracy:  0.82
+
+              precision    recall  f1-score   support
+
+         -1       0.84      0.93      0.88      1586
+          1       0.72      0.48      0.58       559
+
+  micro avg       0.82      0.82      0.82      2145
+  macro avg       0.78      0.71      0.73      2145
+weighted avg       0.81      0.82      0.80      2145
+
+##### 14(c) Best C and changing polynomial kernel degree #####
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+ "avoid this warning.", FutureWarning)
+
+-----
+C = 10^4, Degree = 2
+-----
+
+Train Accuracy:  0.75
+Number of support vectors: [6213 6210]
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+ 'precision', 'predicted', average, warn_for)
+
+              precision    recall  f1-score   support
+
+         -1       0.76      1.00      0.86      1147
+          1       0.00      0.00      0.00       361
+
+  micro avg       0.76      0.76      0.76      1508
+  macro avg       0.38      0.50      0.43      1508
+weighted avg       0.58      0.76      0.66      1508
+
+Dev Accuracy:  0.76
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+ 'precision', 'predicted', average, warn_for)
+
+              precision    recall  f1-score   support
+
+         -1       0.74      1.00      0.85      1586
+          1       0.00      0.00      0.00       559
+
+  micro avg       0.74      0.74      0.74      2145
+  macro avg       0.37      0.50      0.43      2145
+weighted avg       0.55      0.74      0.63      2145
+
+Test Accuracy:  0.74
+Number of support vectors: [6213 6210]
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+ "avoid this warning.", FutureWarning)
+
+-----
+C = 10^4, Degree = 3
+-----
+
+Train Accuracy:  0.75
+Number of support vectors: [6222 6210]
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+ 'precision', 'predicted', average, warn_for)
+
+              precision    recall  f1-score   support
+
+         -1       0.76      1.00      0.86      1147
+          1       0.00      0.00      0.00       361
+
+  micro avg       0.76      0.76      0.76      1508
+  macro avg       0.38      0.50      0.43      1508
+weighted avg       0.58      0.76      0.66      1508
+
+Dev Accuracy:  0.76
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+ 'precision', 'predicted', average, warn_for)
+
+              precision    recall  f1-score   support
+
+         -1       0.74      1.00      0.85      1586
+          1       0.00      0.00      0.00       559
+
+  micro avg       0.74      0.74      0.74      2145
+  macro avg       0.37      0.50      0.43      2145
+weighted avg       0.55      0.74      0.63      2145
+
+Test Accuracy:  0.74
+Number of support vectors: [6222 6210]
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+ "avoid this warning.", FutureWarning)
+
+-----
+C = 10^4, Degree = 4
+-----
+
+Train Accuracy:  0.75
+Number of support vectors: [6234 6210]
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+ 'precision', 'predicted', average, warn_for)
+
+              precision    recall  f1-score   support
+
+         -1       0.76      1.00      0.86      1147
+          1       0.00      0.00      0.00       361
+
+  micro avg       0.76      0.76      0.76      1508
+  macro avg       0.38      0.50      0.43      1508
+weighted avg       0.58      0.76      0.66      1508
+
+Dev Accuracy:  0.76
+/Users/r634349/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+ 'precision', 'predicted', average, warn_for)
+
+              precision    recall  f1-score   support
+
+         -1       0.74      1.00      0.85      1586
+          1       0.00      0.00      0.00       559
+
+  micro avg       0.74      0.74      0.74      2145
+  macro avg       0.37      0.50      0.43      2145
+weighted avg       0.55      0.74      0.63      2145
+
+Test Accuracy:  0.74
+Number of support vectors: [6234 6210]
+Best polynomial degree based on testAccuracy is:  2
